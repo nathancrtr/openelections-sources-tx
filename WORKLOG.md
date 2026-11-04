@@ -37,7 +37,7 @@ including the parallel source searches (five searches ran at once, roughly
 | Frio | 14 (search) | county site, minutes (docx) | Not found. SOS canvass report and unofficial results form, county totals. Contact recorded. |
 | Hansford | 10 (search) | county site | Not found. No results for any election online. Contact recorded. |
 | Hartley | 12 (search) | county CIRA site | Not found. Election-night ES&S summary and reconciliation form. Contact recorded. |
-| Haskell | 12 (search) + see below | county site; scanned grid PDF, two OCR engines (tesseract 5.3.4 and rapidocr) with arithmetic cross-checks | HASKELL_RESULT |
+| Haskell | 12 (search) + 35 (OCR and convert) + 10 (review) | county site; scanned grid PDF, two OCR engines (tesseract 5.3.4 and rapidocr) with arithmetic cross-checks | Done. 10 precincts, mail/early/election-day columns from the per-method sections. Two engines agreed on 67 to 82% of cells per section; row sums and cross-section equalities settled the rest except four cells read visually from 300 dpi strips (listed in the PR draft); two of those were re-checked visually in review. No unresolved cells. All four tests pass. President and Senate match TLC exactly. Seven source-internal inconsistencies kept as printed and listed. |
 | Howard | 14 (search) | old CIRA site, new CivicPlus site, CivicClerk portal, minutes | Not found. ES&S election-night summary and EV report, canvass minutes without the report. Contact recorded. |
 | Hudspeth | 12 (search) | county site | Not found. Hart cumulative report. Contact recorded. |
 | Irion | 12 (search) | county CivicPlus site, agendas | Not found. Site holds only 2026 results. Contact recorded. |
